@@ -28,8 +28,8 @@ function App() {
        
       <header className="App-header">
       <Appdiv>
-      {content.map(({name}, index) => (
-        <PokemonComponent  name={name} index={index} />
+      {content.map((pokemon, index) => (
+        <PokemonComponent  pokemon={pokemon} />
         ))} 
          </Appdiv>
       </header>
